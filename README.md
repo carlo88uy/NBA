@@ -19,7 +19,7 @@ have a measurable impact on attendance.
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 Below is a summary of the main files and directories:
 
@@ -32,7 +32,7 @@ Below is a summary of the main files and directories:
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset includes a wide variety of game and player statistics for the 2023–2024 NBA season, such as:
 
@@ -47,7 +47,7 @@ This consolidated dataset is suitable for exploratory data analysis (EDA), model
 
 ---
 
-## 🛠 Installation & Setup
+## Installation & Setup
 
 To work with the dataset locally, follow these steps:
 
