@@ -1,7 +1,7 @@
 library(car)
 library(MASS)
 # Reading data into 
-df = read.csv("NBA 2023-2024 Dataset (Combined) V2 - Sheet1.csv")
+df = read.csv("data/NBA 2023-2024 Dataset (Combined) V2 - Sheet1.csv")
 attach(df)
 df$Attend..G <- as.numeric(gsub(",", "", df$`Attend..G`))
 cols <- c("X3PA", "BLK", "PTS", "W", "Attend..G", "All.NBA.Player")
@@ -105,5 +105,6 @@ data$PTS <- scale(data$PTS)
 
 full_model <- lm(Attend..G~., data = data)
 ols_coll_diag(full_model)
+
 
 
