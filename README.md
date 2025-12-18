@@ -1,6 +1,6 @@
 # Basic NBA Exploratory Data Analysis (EDA)
 
-This project performs **exploratory data analysis (EDA)** on NBA statistics to uncover patterns, distributions, and relationships within team and player performance data. The goal is to demonstrate a clear, reproducible data analysis workflow using Python.
+This project performs **exploratory data analysis (EDA)** on NBA statistics to uncover patterns, distributions, and relationships within team performance data. The goal is to demonstrate a clear, reproducible data analysis workflow.
 
 ---
 
@@ -19,10 +19,10 @@ This project emphasizes **data understanding and visualization**, rather than pr
 ## Dataset
 
 The dataset contains NBA performance statistics, including variables such as:
-- Points scored
-- Rebounds
-- Assists
-- Shooting statistics
+- Team Name
+- Average Minutes Played
+- Average Assists
+- Average Fan Attendance
 - Other game or season-level metrics
 
 The data is used strictly for **educational and analytical purposes**.
